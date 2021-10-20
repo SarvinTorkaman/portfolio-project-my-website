@@ -1,6 +1,8 @@
 :root {
   --font-secondary-: "Poppins", sans-serif;
   --font-primary-: "Playfair Display", serif;
+  --primary-color-: #bde0fe;
+  --secondary-color-: #4361ee;
 }
 body {
   background-color: #bde0fe;
@@ -13,16 +15,18 @@ h1 {
 p {
   font-family: var(--font-secondary-);
 }
-
+h3 {
+  text-overflow: ellipsis;
+}
 .navbar-brand {
   font-family: "Indie Flower", cursive;
 }
 
 .navbar {
-  background-color: #bde0fe;
+  background-color: var(--primary-color-);
 }
 
 .navbar .navbar-brand,
 .nav-link {
-  color: #4361ee !important;
+  color: var(--secondary-color-) !important;
 }
