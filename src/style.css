@@ -1,0 +1,28 @@
+:root {
+  --font-secondary-: "Poppins", sans-serif;
+  --font-primary-: "Playfair Display", serif;
+}
+body {
+  background-color: #bde0fe;
+}
+h1 {
+  font-family: var(--font-primary-);
+  font-weight: bold;
+}
+
+p {
+  font-family: var(--font-secondary-);
+}
+
+.navbar-brand {
+  font-family: "Indie Flower", cursive;
+}
+
+.navbar {
+  background-color: #bde0fe;
+}
+
+.navbar .navbar-brand,
+.nav-link {
+  color: #4361ee !important;
+}
