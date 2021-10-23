@@ -67,10 +67,11 @@ h2 {
   background-color: var(--third-color);
   border-radius: 4px;
   padding: 18px 46px;
-  border: 1px solid #04d4f0;
+  border: 1px solid #c5d7da;
   font-family: var(--paragraph-font);
   font-weight: 500;
   font-size: 18px;
+  color: #c5d7da;
 }
 
 footer {
