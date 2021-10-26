@@ -64,6 +64,7 @@ h2 {
 }
 .btn-hero {
   margin-top: 49px;
+
   background-color: var(--third-color);
   border-radius: 4px;
   padding: 18px 46px;
@@ -95,7 +96,7 @@ footer .social-network a {
   color: var(--third-color);
 }
 
-.btn-branding-project {
+.project-description .btn-branding-project {
   border: 1px solid var(--third-color);
   padding: 15px 30px;
 }
@@ -103,6 +104,48 @@ footer .social-network a {
 .project-description {
   padding: 130px 60px;
 }
+
+.about {
+  background-color: var(--primary-color);
+  text-align: left;
+  padding: 160px 126px;
+}
+.about h1 {
+  font-family: var(--heading-font);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70px;
+}
+.about h2 {
+  font-size: var(--paragraph-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  margin: 20px auto;
+}
+.about p {
+  font-size: var(--paragraph-font);
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  margin: 30px;
+}
+.about img {
+  width: 400px;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.navbar-design {
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+}
+
 @media (max-width: 990px) {
   .hero h1 {
     font-size: 44px;
@@ -119,5 +162,12 @@ footer .social-network a {
   }
   .hero {
     padding: 80px 10px;
+  }
+  .about {
+    text-align: center;
+    padding: 0;
+  }
+  .about h1 {
+    font-size: 50px;
   }
 }
