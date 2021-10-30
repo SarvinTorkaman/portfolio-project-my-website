@@ -42,18 +42,24 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/src/style.css" />
-    <title>Portfolio</title>
+    <title>Frond-end Developer - Sarvin Torkamanzadeh</title>
+    <meta
+      name="description"
+      content="Sarvin Torkamanzadeh is a fron-end developer - practicing and developing websites in HTML, CSS and Javascript. she is educated in technologies such as responisveness, netlify, SEO, web design and content managemnet"
+    />
   </head>
   <body>
     <div class="container">
       <div class="nav d-flex justify-content-between">
-        <a href="/" class="brand d-none d-sm-flex"> Sarvin </a>
-        <a href="/" class="brand d-flex d-sm-none">S</a>
+        <a href="/" class="brand d-none d-sm-flex" title="Homepage"> Sarvin </a>
+        <a href="/" class="brand d-flex d-sm-none" title="Homepage">S</a>
         <ul>
-          <li><a href="/" class="active">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Works</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" class="active" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Sarvin">About</a></li>
+          <li>
+            <a href="/work.html" title="Sarvin's Work">Works</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Sarvin">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -63,7 +69,9 @@
       <h1>Sarvin Torkaman</h1>
       <h2>Front-end developer, based in Iran</h2>
 
-      <a href="#" class="btn btn-hero">Get started</a>
+      <a href="#projects" class="btn btn-hero" title="Go to Projects"
+        >Get started</a
+      >
     </div>
 
     <div class="container">
@@ -71,7 +79,7 @@
         Featured Project which my best projects be choice to show
       </p>
 
-      <div class="row mb-5">
+      <div class="row mb-5" id="projects">
         <div class="col d-none d-lg-block">
           <img
             src="/media/yoga3.png"
@@ -84,10 +92,9 @@
           <div class="project-description">
             <h2 class="mb-5">Yoga site</h2>
             <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              A website that is developed and designed in HTML and CSS and a
+              litlle bit of Javascript, encouraging people to start a 30 day
+              plan of yoga challenge
             </p>
             <a
               href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/448/192/original/Shecodes_basic_Final_Project_.html?1628018341"
@@ -104,10 +111,11 @@
           <div class="project-description">
             <h2 class="mb-5">Weather App</h2>
             <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              Built a weather forecast app by incorporating real time updated
+              data from openweathermap.org. This app is also coded with current
+              position weather forecast search for users to know their current
+              location weather forecast. also provides forecast of future days
+              of the week .
             </p>
             <a
               href="https://dreamy-morse-c5768b.netlify.app/"
@@ -120,7 +128,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="/media/weather-app.png"
-            alt="Yoga"
+            alt="weather"
             class="project-picture img-fluid"
           />
         </div>
@@ -129,7 +137,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="/media/dictionary.png"
-            alt="Yoga"
+            alt="dictionary"
             class="project-picture img-fluid"
           />
         </div>
@@ -138,15 +146,14 @@
           <div class="project-description">
             <h2 class="mb-5">Dictionary App</h2>
             <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
+              A website that uses Google API for dictionary data. It has a
+              simple structure currently , but will be equipped with React
+              technology soon.
             </p>
             <a
               href="https://focused-johnson-c559a1.netlify.app/"
-              class="btn btn-branding-project target="
-              _blank
+              class="btn btn-branding-project"
+              target="_blank"
               >Learn more</a
             >
           </div>
@@ -163,7 +170,13 @@
             </p>
           </div>
           <div class="col-lg-6 text-center">
-            <a href="#" class="btn btn-inquiry"> Contact me</a>
+            <a
+              href="/contact.html#get-in-touch"
+              class="btn btn-inquiry"
+              title="Contact Sarvin"
+            >
+              Contact me</a
+            >
           </div>
         </div>
       </div>
@@ -172,18 +185,38 @@
         <a href="mailto:sarvin.to@gmail.com">Sarvin.to@gmail.com</a>
       </div>
       <div class="social-network">
-        <a href="https://www.instagram.com/sarv89/" target="_blank"
+        <a
+          href="https://www.instagram.com/sarv89/"
+          title="Instagram"
+          target="_blank"
           ><i class="fab fa-instagram"></i
         ></a>
-        <a href="https://github.com/SarvinTorkaman" target="_blank"
+        <a
+          href="https://github.com/SarvinTorkaman"
+          title="Github"
+          target="_blank"
           ><i class="fab fa-github"></i
         ></a>
         <a
           href="https://www.linkedin.com/in/sarvin-torkmanzadeh-226692107/"
           target="_blank"
+          title="Linkedin"
           ><i class="fab fa-linkedin-in"></i
         ></a>
       </div>
     </footer>
+    <p class="m-0 text-center">
+      <small class="d--inline-flex justify-content-center">
+        This webpage is coded by Sarvin , and it is
+      </small>
+      <a
+        href="https://github.com/SarvinTorkaman/portfolio-project-my-website"
+        target="_blank"
+        title="Go to Github"
+        class="d-inline text-decoration-none text-dark small"
+      >
+        open-sourced</a
+      >
+    </p>
   </body>
 </html>
