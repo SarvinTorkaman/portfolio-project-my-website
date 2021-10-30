@@ -9,23 +9,45 @@ body {
   background-color: var(--primary-color);
 }
 
-.navbar-brand {
-  font-family: "Indie Flower", cursive;
-  font-weight: bolder;
-  text-shadow: 2px 2px var(--third-color);
-}
-
-.navbar {
+.nav {
+  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
   background-color: var(--primary-color);
 }
-
-.navbar-design {
-  box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
-/* .navbar .navbar-brand,
-.nav-link {
-  color: var(--secondary-color) !important;
-} */
+
+.nav .brand {
+  font-family: "Indie Flower", cursive;
+  font-weight: bolder;
+  font-size: 30px;
+  text-shadow: 2px 2px var(--third-color);
+  text-decoration: none;
+  color: rgba(39, 33, 66, 0.7);
+  line-height: 50px;
+  margin-left: 20px;
+}
+.nav li a {
+  color: rgba(39, 33, 66, 0.7);
+  font-family: var(--paragraph-font);
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.nav li {
+  display: inline;
+}
+
+.nav li a:hover,
+.nav .active {
+  color: var(--third-color);
+  transition: all 100ms ease-in-out;
+}
 
 p {
   font-family: var(--paragraph-font);
@@ -224,6 +246,9 @@ footer .social-network a {
   }
   .contact-content {
     padding: 30px;
+  }
+  .nav .brand {
+    font-size: 20px;
   }
 }
 @media (max-width: 530px) {
