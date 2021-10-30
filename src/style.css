@@ -100,14 +100,12 @@ h2 {
   font-size: 18px;
   color: #c5d7da;
 }
-
 .project-description .btn-branding-project {
   border: 1px solid var(--third-color);
   padding: 15px 30px;
 }
-
 .project-description {
-  padding: 130px 60px;
+  padding: 70px 50px 130px 50px;
 }
 
 .content {
@@ -180,9 +178,6 @@ footer .contact-email a {
   transition: all 200ms ease-in-out;
 }
 
-/* footer .social-network {
-  padding-top: 50px;
-} */
 footer .social-network a {
   margin: 0 20px;
   color: var(--third-color);
@@ -233,6 +228,7 @@ footer .work-inquiry p {
   .hero h2 {
     font-size: 20px;
   }
+
   .project-description {
     padding: 0;
     text-align: center;
